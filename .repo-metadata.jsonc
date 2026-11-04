@@ -1,0 +1,37 @@
+// vim:set expandtab shiftwidth=4 filetype=jsonc:
+// SPDX-License-Identifier: GPL-3.0-only
+
+//
+//
+// ~chewygumxx/std-repo-docs.git
+// ::: :/.repo-metadata.jsonc
+//
+//
+
+{
+    "$schema": "https://raw.githubusercontent.com/chewygumxx/sync-repo-metadata/refs/tags/v2/schema.json",
+    "name": "std-repo-docs",
+    "owner": "chewygumxx",
+    "slug": "chewygumxx/std-repo-docs",
+    "default_branch": "main",
+    "description": "Standardised specification of repository documentation",
+    "category": "repository",
+    "topics": [
+        "repo",
+        "docs",
+        "standard",
+        "spec",
+        "agent",
+        "skills",
+        "plan",
+        "note",
+        "wiki",
+        "project"
+    ],
+    "license": {
+        "filepath": "./LICENSE",
+        "spdx_id": "GPL-3.0-only",
+        "full_name": "GNU General Public License v3.0 only",
+        "url": "https://spdx.org/licenses/GPL-3.0-only"
+    }
+}
