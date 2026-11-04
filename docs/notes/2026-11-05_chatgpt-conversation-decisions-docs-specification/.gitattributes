@@ -1,0 +1,16 @@
+# vim:set expandtab shiftwidth=4 filetype=gitattributes:
+# SPDX-License-Identifier: GPL-3.0-only
+
+#
+#
+# ~chewygumxx/std-repo-docs.git
+# ::: :/docs/notes/2026-11-05_chatgpt-conversation-decisions-docs-specification/.gitattributes
+#
+#
+
+# Intended as sample data
+/decisions.md -sync-header-metadata
+
+# Everything within an attachment directory should be considered sample data
+* -sync-header-metadata
+
