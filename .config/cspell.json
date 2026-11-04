@@ -3,5 +3,5 @@
     "version": "0.2",
     "language": "en-GB",
     "ignorePaths": ["docs/notes/*/**"],
-    "words": []
+    "words": ["agentskills"]
 }
