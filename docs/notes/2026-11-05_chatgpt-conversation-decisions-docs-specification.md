@@ -119,9 +119,9 @@ Two distinctions are particularly worth preserving:
 
 #### Decision vs. Approval
 
-A specification's decision table establishes that a
-choice was documented, but not necessarily that it was formally authorised. The
-revised **Choice** field preserves that distinction without over-explaining it.
+A specification's decision table establishes that a choice was documented, but
+not necessarily that it was formally authorised. The revised **Choice** field
+preserves that distinction without over-explaining it.
 
 #### Historical vs. Current State
 
@@ -182,18 +182,18 @@ historical records.
 
 Its value comes from three principles:
 
-- **Evidence over inference**: A specification containing a decision doesn't
+- **Evidence over Inference**: A specification containing a decision doesn't
   necessarily establish who authorised it, nor does implementation prove why it
   was chosen.
-- **Historical reasoning ver implementation detail**: The index explains why
+- **Historical Reasoning over Implementation Detail**: The index explains why
   something was decided. Reference documentation explains what currently
   exists.
-- **Continuity over time**: Decisions can be revisited, superseded, or partially
+- **Continuity over Time**: Decisions can be revisited, superseded, or partially
   implemented without losing their original rationale.
 
 These principles already appear throughout your document, including the
 requirement to distinguish undocumented information from recorded facts.
-([decisions.md][attach-decisions] Lines 26-48)
+([`decisions.md`][attach-decisions] Lines 26-48)
 
 I would standardise those principles rather than replace them with an existing
 ADR convention.
@@ -299,9 +299,9 @@ dimensions as long as they're distinguishable.
 Also, revisited describes an event rather than necessarily a current standing:
 a decision can be revisited and subsequently reaffirmed.
 
-#### B. Cost versus consequences
+#### B. Cost vs. Consequence
 
-Your existing Cost field has a valuable distinction that I wouldn't discard:
+Your existing **Cost** field has a valuable distinction that I wouldn't discard:
 the cost of making a particular decision versus the cost of discovering that it
 was wrong.
 
@@ -314,8 +314,8 @@ should that be included?
 I'd allow it only when explicitly attributed as subsequent analysis, not as the
 original decision-maker's reasoning.
 
-For a particularly rigorous convention, you could eventually use Consequences
-instead, encompassing both favourable and adverse effects.
+For a particularly rigorous convention, you could eventually use
+**Consequences** instead, encompassing both favourable and adverse effects.
 
 I wouldn't make that change yet.
 
@@ -882,9 +882,9 @@ considerably easier to address without compromising the historical record.
 
 - [Attached: decisions.md][attach-decisions]
 - [GitHub chewygumxx/dorothy][repo-dorothy]
-- [dorothy/dorothy - Decisions][dorothy-decisions]
-- [dorothy/dorothy - Records][dorothy-records]
-- [dorothy/dorothy - Wiki home][dorothy-wikihome]
+- [chewygumxx/dorothy - Decisions][dorothy-decisions]
+- [chewygumxx/dorothy - Records][dorothy-records]
+- [chewygumxx/dorothy - Wiki home][dorothy-wikihome]
 
 [attach-decisions]: ./2026-11-05_chatgpt-conversation-decisions-docs-specification/decisions.md "Attached: decisions.md"
 [repo-dorothy]: https://github.com/chewygumxx/dorothy "GitHub: chewygumxx/dorothy"
@@ -892,7 +892,7 @@ considerably easier to address without compromising the historical record.
 [dorothy-records]: https://github.com/chewygumxx/dorothy/blob/main/docs/wiki/records.md "chewygumxx/dorothy Records"
 [dorothy-wikihome]: https://github.com/chewygumxx/dorothy/blob/main/docs/README.md "chewygumxx/dorothy Wiki home"
 
-### ADR
+### Architectural Decision Records (ADR)
 
 - [ADR Templates | Architectural Decision Records][adr-templates]
 - [Documenting architecture decisions - The GDS Way][adr-arch-decision-docs]
